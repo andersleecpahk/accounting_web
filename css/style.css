@@ -9355,7 +9355,23 @@ textarea.form-control {
   width: 100%; }
 
 .contact-wrap {
-  background: #fff; }
+  background: #fff;
+}
+
+.google-form-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.google-form-container iframe{
+  height: 1050px;
+}
+@media (max-width: 500px) {
+  .google-form-container iframe{
+    height: 1200px;
+  }
+}
+
 
 .info-wrap {
   color: rgba(255, 255, 255, 0.8); }
