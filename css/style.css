@@ -9700,3 +9700,26 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+
+.services-item{
+  /*background: #D0D9CD;*/
+  /*box-shadow: 0 0 5px 5px #D0D9CD;*/
+}
+
+.collapseItem .down{
+    display: none;
+}
+.collapseItem .up{
+    display: block;
+}
+
+.collapseItem.collapsed .down{
+    display: block;
+}
+.collapseItem.collapsed .up{
+    display: none;
+}
+
+
+
