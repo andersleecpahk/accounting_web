@@ -9707,6 +9707,10 @@ textarea.form-control {
   /*box-shadow: 0 0 5px 5px #D0D9CD;*/
 }
 
+.collapseItem{
+  display: block;
+}
+
 .collapseItem .down{
     display: none;
 }
